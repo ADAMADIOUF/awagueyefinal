@@ -673,13 +673,14 @@ video{
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 1rem;
   
 }
 .small-img img{
   padding: 1rem;
-  margin: 2rem;
-  width: 100px;
-  height: 100px;
+  margin: 1rem;
+  width: 60px;
+  height: 80px;
   border: 1px solid var(--clr-black);
   border-radius: var(--radius);
   cursor: pointer;
@@ -732,6 +733,11 @@ border-radius: var(--radius);
 .size-btn:hover{
   background: var(--clr-black);
   color: var(--clr-white);
+}
+@media (min-width:768px) {
+  .small-img img{
+    width: 100%;
+  }
 }
 @media (min-width:992px) {
   .singleProduct-container{
