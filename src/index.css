@@ -702,12 +702,12 @@ video{
   cursor: zoom-in;
 }
 .singleProduct-details{
- background: #ccc;
+ background: var(--primary-color);
  border:  1px solid var(--clr-black);
  box-shadow: var(--light-shadow);
 text-align: center;
 border-radius: var(--radius);
-  
+  color: var(--last-color);
 }
 .singleProduct-details p{
   color:var(--clr-white);
