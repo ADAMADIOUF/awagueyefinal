@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../src/images1/logo.png'
+import logo from '../src/images1/logofooter.png'
 import {
   FaInstagramSquare,
   FaTiktok,

@@ -7,7 +7,7 @@ const sublinks = [
     page: 'boutique',
     links: [
       { label: 'FEMMES', url: '/femmes' },
-      
+
       { label: 'HOMMES', url: '/hommes' },
     ],
   },

@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from "../src/images1/logo.jpg"
-import logo1 from '../src/images1/logoawa1.png'
+
 import { FaBars } from 'react-icons/fa'
 import { useGlobalContext } from './context'
 
@@ -24,26 +24,32 @@ const Navbar = () => {
       <nav className='nav' onMouseOver={handleSubmenu}>
         <div className='nav-center'>
           <div className='nav-header'>
-            <img src={logo1} alt='' className='logo' />
+            <img src={logo} alt='' className='logo' />
             <button className='btn toggle-btn' onClick={openSidebar}>
               <FaBars />
             </button>
           </div>
           <ul className='nav-links'>
             <li>
-              <button className='link-btn' onMouseOver={displaySubmenu}>
-                accueil
-              </button>
+              <a href='/'>
+                <button className='link-btn' onMouseOver={displaySubmenu}>
+                  accueil
+                </button>
+              </a>
             </li>
             <li>
-              <button className='link-btn' onMouseOver={displaySubmenu}>
-                boutique
-              </button>
+              <a href='/hommes'>
+                <button className='link-btn' onMouseOver={displaySubmenu}>
+                  boutique
+                </button>
+              </a>
             </li>
             <li>
-              <button className='link-btn' onMouseOver={displaySubmenu}>
-                contact
-              </button>
+              <a href='/contact'>
+                <button className='link-btn' onMouseOver={displaySubmenu}>
+                  contact
+                </button>
+              </a>
             </li>
           </ul>
         </div>
